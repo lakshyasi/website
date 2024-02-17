@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1a79b4;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+.featured-products {
+    text-align: center;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info {
+    flex: 1;
+    padding-left: 1em;
+}
+
+button {
+    background-color: #05c198;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
